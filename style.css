@@ -1,0 +1,71 @@
+
+h1{
+	text-align:center;
+}
+
+body {
+	margin-top:50px;
+	font-family: 'Open Sans', sans-serif;
+	margin:0 auto;
+}
+form {
+
+	padding: 20px;
+	background: #ffbe0d;
+	width:30%;
+	margin:0 auto;
+}
+form div.step {
+	display:none;
+	}	
+form div.step p.step{
+	text-align:center;
+	font-size:28px;
+	}
+form div.step p{
+	}
+form div.step p input{
+	float:right;
+	}
+a.back {
+	color: #fff;
+	text-decoration: none; 
+	font-size:16px;
+	user-select: none; 
+	background: rgb(212,75,56);
+	padding: .5em 0.8em;
+	outline: none; 
+	display:none;
+	}
+	a.back:hover { background: rgb(232,95,76); } 
+	a.back:active { background: rgb(152,15,0); }
+form input[type=submit] {
+	color: #fff;
+	text-decoration: none; 
+	user-select: none; 
+	font-size:16px;
+	height:33px;
+	border:0px;
+	background: rgb(212,75,56);
+	padding: .5em 0.8em;
+	outline: none; 
+	display:none;
+	display:none;
+	}
+	INPUT.button:hover { background: rgb(232,95,76); } 
+	INPUT.button:active { background: rgb(152,15,0); }
+form p.talign{
+	 text-align:center;
+	}
+a {
+	color: #fff;
+	text-decoration:none;
+	color: #fff;
+	text-decoration: none; 
+	user-select: none; 
+	background: rgb(212,75,56);
+	padding: .5em 0.8em;
+	outline: none; 
+	}
+	a.next:hover { background: rgb(232,95,76); } 
+	a.next:active { background: rgb(152,15,0); }

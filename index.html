@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+<meta charset="utf-8">
+<META name="viewport" content="width=device-width" />   
+<link rel="stylesheet" type="text/css" href="style.css" />
+<SCRIPT type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></SCRIPT>
+<SCRIPT type="text/javascript" src="steps_registration.js"></SCRIPT>
+<TITLE>Онлайн касса</TITLE>
+<h1>Онлайн касса</h1>
+</HEAD>
+<BODY>
+<FORM method="post" action="script2.php">
+<DIV class="step">
+<P class="step">Шаг 1</P>
+<P><STRONG>Откуда:</STRONG><INPUT type="text" name="from" placeholder="Город"></P>
+<P><STRONG>Куда:</STRONG><INPUT type="text" name="where" placeholder="Город"></P>
+</DIV>
+<DIV class="step">
+<P class="step">Шаг 2</P>
+<P><STRONG>Имя:</STRONG><INPUT type="text" name="Name" placeholder="Введите имя"></P>
+<P><STRONG>Фамилия:</STRONG><INPUT type="text" name="lastName" placeholder="Введите фамилию"></P>
+<P><STRONG>Отчество:</STRONG><INPUT type="text" name="middleName" placeholder="Введите отчество"></P>
+<P><STRONG>Тип документа:</STRONG><INPUT type="text" name="documentName" placeholder="Тип документа"></P>
+<P><STRONG>Номер документа:</STRONG><INPUT type="text" name="passportNumber" placeholder="Номер документа"></P>
+<P><STRONG>Есть багаж</STRONG><INPUT type="radio" name="answer" value="yes"></P>
+<P><STRONG>Нет багажа</STRONG><INPUT type="radio" name="answer" value="no" checked></P>
+</DIV>
+<DIV class="step">
+<P class="step">Шаг 3</P>
+<P><STRONG>Адрес электронной почты:</STRONG><INPUT type="text" name="" placeholder=""></P>
+<!--<P><STRONG>в</STRONG><INPUT type="text" name="" placeholder=""></P>-->
+<!--<P><STRONG>ш</STRONG><INPUT type="text" name="" placeholder=""></P>-->
+</DIV>
+<P class="talign">
+<A href="#" class="back">Назад</A>
+<A href="#" class="next">Следующий шаг</A>
+<INPUT type="submit" class="button" value="Зарегистрироваться">
+</P>
+</FORM>
+</BODY>
+</HTML>
